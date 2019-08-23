@@ -1,0 +1,22 @@
+*.class
+*.iml
+.idea/
+.DS_Store
+target/**
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+target
+service/src/main/resources/public/
+service/target
+ui/.tmp/
+
+
+.project
+.settings/
+.classpath
+bin

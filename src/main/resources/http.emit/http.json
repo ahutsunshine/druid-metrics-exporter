@@ -1,0 +1,470 @@
+[
+  {
+    "value": 0,
+    "metric": "query/cache/delta/sizeBytes",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.753Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/hits",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.753Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/misses",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.753Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/evictions",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.753Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0.0,
+    "metric": "query/cache/delta/hitRate",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.753Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/averageBytes",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.754Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/timeouts",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.754Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/errors",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.754Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/put/ok",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.754Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/put/error",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.754Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/put/oversized",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.754Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/numEntries",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.754Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/sizeBytes",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.755Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/hits",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.755Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/misses",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.755Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/evictions",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.755Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0.0,
+    "metric": "query/cache/total/hitRate",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.755Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/averageBytes",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.755Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/timeouts",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.755Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/errors",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.756Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/put/ok",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.756Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/put/error",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.756Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/total/put/oversized",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.756Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/caffeine/delta/requests",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.756Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/caffeine/total/requests",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.756Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/caffeine/delta/loadTime",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.757Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/caffeine/total/loadTime",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.757Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/caffeine/delta/evictionBytes",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.757Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/caffeine/total/evictionBytes",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.757Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 51,
+    "metric": "emitter/events/emitted/delta",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.781Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "emitter/buffers/dropped/delta",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.781Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "emitter/buffers/allocated/delta",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.781Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "emitter/buffers/failed/delta",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.781Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 60001,
+    "metric": "emitter/batchFilling/timeMsSum",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.781Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 1,
+    "metric": "emitter/batchFilling/count",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 60001,
+    "metric": "emitter/batchFilling/maxTimeMs",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 60001,
+    "metric": "emitter/batchFilling/minTimeMs",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 17,
+    "metric": "emitter/successfulSending/timeMsSum",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 1,
+    "metric": "emitter/successfulSending/count",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 17,
+    "metric": "emitter/successfulSending/maxTimeMs",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 17,
+    "metric": "emitter/successfulSending/minTimeMs",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "emitter/events/emitQueue",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "emitter/events/large/emitQueue",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "emitter/buffers/emitQueue",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.782Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 1,
+    "metric": "emitter/buffers/reuseQueue",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.783Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "avatica/server/AvaticaJsonHandler/Handler/RequestTimings",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.790Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "avatica/remote/JsonHandler/Handler/Serialization",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.790Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "jetty/numOpenConnections",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.791Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "segment/scan/pending",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:46:24.791Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/numEntries",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:47:24.752Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/sizeBytes",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:47:24.753Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  },
+  {
+    "value": 0,
+    "metric": "query/cache/delta/hits",
+    "service": "druid/broker",
+    "timestamp": "2019-07-18T08:47:24.753Z",
+    "feed": "metrics",
+    "host": "localhost:8082",
+    "version": "0.15.0-incubating"
+  }
+]
