@@ -214,7 +214,7 @@ public class DruidMetricsConverter {
                             Object val = metric.getValue();
                             double duration = value;
                             String durationStatus = "1";//means task run time is more than 0.
-                            if ((val instanceof Long) && Long.valueOf(String.valueOf(val)) == -1L) {
+                            if (val!=null && String.valueOf(val).contains("-")) {
                                 //FAILED ,duration = -1, make duration 1ms value
                                 LOG.warn("Task run failed. Run time:{}, host:{}, dataSource:{}, taskType:{}, taskStatus:{}", value, host, dataSource, metric.getTaskType(), metric.getTaskStatus());
                                 duration = 0;
