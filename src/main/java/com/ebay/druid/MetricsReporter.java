@@ -432,7 +432,7 @@ public class MetricsReporter {
     }
 
     public synchronized Histogram getHistogramBytesMetric(Metric metric) {
-        double[] buckets = new double[]{2000, 40000, 6000, 8000, 10000, 20000, 40000, 60000, 80000, 100000, 500000, 1000000, 10000000};
+        double[] buckets = new double[]{2000, 4000, 6000, 8000, 10000, 20000, 40000, 60000, 80000, 100000, 500000, 1000000, 10000000};
         return getHistogramMetric(metric, buckets);
     }
 

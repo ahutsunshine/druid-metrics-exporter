@@ -214,11 +214,14 @@ public class DruidMetricsConverter {
                             Object val = metric.getValue();
                             double duration = value;
                             String durationStatus = "1";//means task run time is more than 0.
-                            if ((val instanceof Long) && Long.valueOf(String.valueOf(val)) == -1L) {
+                            if (val != null && String.valueOf(val).contains("-")) {
                                 //FAILED ,duration = -1, make duration 1ms value
-                                LOG.warn("Task run failed. Run time:{}, host:{}, dataSource:{}, taskType:{}, taskStatus:{}", value, host, dataSource, metric.getTaskType(), metric.getTaskStatus());
+                                LOG.warn("Task run failed. Run time:{}, host:{}, dataSource:{}, taskType:{}, taskStatus:{}", val, host, dataSource, metric.getTaskType(), metric.getTaskStatus());
                                 duration = 0;
                                 durationStatus = "-1";//means task run time is -1.
+                            } else {
+                                //SUCCESS
+                                LOG.info("Task run success. Run time:{}, host:{}, dataSource:{}, taskType:{}, taskStatus:{}", val, host, dataSource, metric.getTaskType(), metric.getTaskStatus());
                             }
                             MetricsReporter.getInstance().getHistogramMetric(metricEnum, new double[]{60 * 1000, 5 * 60 * 1000, 10 * 60 * 1000, 30 * 60 * 1000, 60 * 60 * 1000,
                                     2 * 60 * 60 * 1000, 3 * 60 * 60 * 1000, 5 * 60 * 60 * 1000, 24 * 60 * 60 * 1000})
