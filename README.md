@@ -1,5 +1,7 @@
 # Druid metrics exporter
-- Expose druid metrics following the [Prometheus](https://prometheus.io/) standards
+- Enable druid metric emitter
+- Format druid metrics following the [Prometheus](https://prometheus.io/) standards
+- Expose Promethus metrics
 
 # Running
 - cd druid-metrics-exporter
